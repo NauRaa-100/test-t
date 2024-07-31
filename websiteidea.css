@@ -1,0 +1,263 @@
+body {
+    background-color: black;
+
+}
+
+.header {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: rgb(14, 13, 7);
+    font-weight: bolder;
+    text-shadow: 2px 0px rgba(216, 235, 50, 0.575);
+    background-image: url(https://i.pinimg.com/originals/c3/0a/49/c30a49f482cee0b846dc42134164e290.gif);
+    background-repeat: repeat-x;
+    background-size: 1300px 200px;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.a {
+    float: right;
+
+}
+
+.c {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: rgb(216, 226, 127);
+    text-shadow: 1px 1px rgb(184, 7, 7);
+    text-align: left;
+}
+
+.k {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: rgb(153, 172, 224);
+    text-align: left;
+
+}
+
+.d {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: bisque;
+    text-shadow: 1px 1px rgb(236, 234, 91);
+    font-weight: bolder;
+
+}
+
+.g {
+    font-family: cursive;
+    font-size: large;
+    color: rgb(241, 236, 243);
+    text-align: right;
+}
+
+.f {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: rgb(241, 236, 243);
+    text-shadow: 1px 0px rgb(225, 241, 129);
+    text-align: right;
+}
+
+.xx {
+    color: rgba(202, 128, 38, 0.822);
+    text-shadow: 1px 1px rgb(236, 234, 91);
+    font-weight: bolder;
+    font-size: 40px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+
+
+
+
+}
+
+.xnx {
+    color: rgba(202, 128, 38, 0.822);
+    text-shadow: 1px 1px rgb(236, 234, 91);
+    font-weight: bolder;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.mn {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(84, 167, 139);
+    text-shadow: 1px 0px rgb(52, 136, 192);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: end;
+
+
+}
+
+.img {
+    box-shadow: 5px 5px 50px rgb(7, 154, 199);
+    border-radius: 10px;
+
+}
+
+.xix {
+    padding: 80px 0px 0px 0px;
+
+}
+
+.ha {
+
+    color: rgb(196, 156, 104);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10pxpx;
+    font-style: inherit;
+    font-weight: bold;
+    text-align: right;
+
+}
+
+.ho {
+    float: right;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 80px;
+    box-shadow: 3px 3px 10px 5px rgba(0, 195, 255, 0.329);
+}
+
+.zz {
+    color: rgb(9, 17, 3);
+    font-family: ;
+
+}
+
+.aside {
+    color: aliceblue;
+    font-size: 60px;
+    text-align: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 3px 3px rgb(184, 7, 7);
+
+
+}
+
+.note {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    color: rgb(160, 201, 235);
+    text-shadow: 0px 0px;
+
+
+}
+
+.home {
+    color: rgba(55, 135, 214, 0.575);
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: right;
+    padding: 10px 0px 0px 0px;
+
+}
+
+
+.video {
+    float: right;
+
+
+}
+
+.homee {
+
+    color: rgb(18, 37, 37);
+    text-align: right;
+    margin: 0px;
+} 
+*{
+}
+nav{
+width:80%;
+min-width: 600px;
+display: flex;
+justify-content: space-around;
+margin: auto;
+
+
+}
+
+nav a{
+text-decoration: none;
+color:rgb(161, 157, 157);
+text-transform: capitalize;
+position: relative;
+font-weight: bolder;
+font-size: larger;
+padding:0 10px ;
+}
+a::before{
+position: absolute;
+width: 80%;
+background-color: rgb(174, 210, 216);
+transition:0.3s ;
+content: '';
+bottom: -7px;
+width: 0;
+left: 0;
+bottom: -7px;
+height: 2px;
+}
+a:hover{
+
+    color: white; 
+    
+}
+a:hover::before{
+    position: absolute;
+    width: 0100%;
+    transition: 0.3s;
+
+}
+section{
+display: flex;
+justify-content: space-around;
+align-items: center;
+font-size: 20px;
+margin: 15px 0px 0px 0px ;
+position: relative;
+}
+.sec{
+color: rgba(2, 160, 160, 0.555);
+text-decoration: none;
+text-transform: capitalize;
+font-weight: bolder;
+}
+a::before{
+position: absolute;
+content: '';
+bottom: -7px;
+width: 0;
+left: 0;
+bottom: -7px;
+height: 2px;
+transition: 0.3s;
+
+}
+a:hover{
+color: rgb(240, 247, 252);
+position:relative;
+
+
+
+}
+a:hover:before{
+
+    position: absolute;
+    bottom: -7px;
+    width: 100%;
+    left: 0;
+    bottom: -7px;
+    height: 2px;
+    content: '';
+    paint-order:initial;
+}
